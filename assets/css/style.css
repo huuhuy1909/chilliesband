@@ -7,6 +7,7 @@
 
 html {
     font-family: Helvetica, Arial, sans-serif;
+    scroll-behavior: smooth;
 }
 .text-white{
     color: #fff !important;
@@ -197,7 +198,7 @@ html {
     font-size: 16px;
     font-weight: 500;
     padding-top: 5px;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
 }
 
 #content .member-img{
