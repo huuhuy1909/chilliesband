@@ -15,8 +15,16 @@ html {
 
 .font-text{
     font-family: "Times New Roman";
+    
 }
 
+.about-head{
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 20px;
+    line-height: 1.4;
+    
+}
 #main {
 
 }
@@ -175,6 +183,7 @@ html {
     font-size: 20px;
     text-align: justify;
     line-height: 1.4;
+    text-indent: 20px;
 }
 
 #content .members-list{
@@ -214,7 +223,7 @@ html {
 .tour-section{
     background-color: #000000;
     
-    height: 830px;
+    height: 900px;
     
 }
 
@@ -266,12 +275,14 @@ html {
     width: 33.33333% ;
     /* padding: 0 8px; */
     padding-top: 25px;    
+    height: 500px;
 }
 
 .place-img{
     width: 100%;
     height: 50%;
     display: block;
+
 }
 
 .place-img:hover{
@@ -295,9 +306,10 @@ html {
     color: #757575;
 }
 
-.place-desc{
+.place-item .place-desc{
     margin-top: 15px;
-    line-height: 1.4;
+    font-size: 20px;
+
 }
 
 .place-buy-btn{
